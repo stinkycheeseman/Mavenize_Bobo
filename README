@@ -1,0 +1,10 @@
+This project is solely for me to push my changes of bobo-browse to John Wang
+---------------------------------------------------------------------------
+Notes: I've changed the file structure and added a pom file to each sub-project in bobo-browse. 
+Right now, everything that was in a different folder (ie bobo-browse, bobo-demo etc) each constitutes a different
+project. I can probably change that if that's a problem.
+
+TO TELL MAVEN USERS: The bobo jars will have to be manually added into people's personal repositories as they are
+not in the maven repo online. Some projects depend on eachother (ie bobo-demo depends on bobo-gwt) so in order to get
+them to compile on your machine, you need to build the gwt jar and add it to your repository manually. Obviously this
+is not ideal and as this project matures we can add the jars into the big maven repo online.
